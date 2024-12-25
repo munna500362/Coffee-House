@@ -12,6 +12,8 @@
 header{
     
     background-color: #900C3F;
+    position: fixed;
+    width: 100%;
     
 
 
@@ -57,5 +59,61 @@ header{
     background-color:darkorange;
     border-radius: 25px;
     color: black;
+}
+
+
+/* main section start */
+
+main{
+    background-color: #3d2412;
+    
+}
+
+.coffee-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    min-height: 100vh;
+}
+
+
+.coffee-header{
+    color: white;
+    
+}
+
+.coffee-header .coffee-tittle{
+    color:coral;
+    
+}
+
+.coffee-header .subtitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+   
+}
+.coffee-header .coffee-button{
+    margin-top: 15px;
+} 
+
+.coffee-header .coffee-button button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.coffee-header .coffee-button button:hover{
+    background-color:darkorange;
+}
+
+.coffee-img{
+    text-align: end; 
+    
+}
+
+.coffee-img img{
+    width:50%;
+    
 }
 
